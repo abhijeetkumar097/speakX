@@ -1,0 +1,76 @@
+.app-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  flex-direction: column;
+}
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+h1 {
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+
+.search-box {
+  /* text-align: center; */
+  margin-bottom: 20px;
+  border-style: dotted;
+}
+
+.search-input {
+  padding: 10px;
+  /* width: 300px; */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.loading {
+  /* text-align: center; */
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+.results-list {
+  list-style:none;
+  padding: 0;
+}
+
+.result-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  /* padding: 10px 0; */
+}
+
+.pagination-container {
+  /* text-align: center; */
+  margin-top: 20px;
+}
+
+.pagination-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
